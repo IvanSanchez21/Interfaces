@@ -7,7 +7,7 @@ package ec.edu.ups.clases;
 
 /**
  *
- * @author Estudiante
+ * @author Ivan
  */
 public class Ave {
     
