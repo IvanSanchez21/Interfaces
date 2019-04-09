@@ -7,7 +7,7 @@ package ec.edu.ups.interfaces;
 
 /**
  *
- * @author Estudiante
+ * @author Ivan
  */
 public interface Acciones {
     

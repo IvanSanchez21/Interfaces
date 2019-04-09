@@ -8,36 +8,36 @@ import ec.edu.ups.interfaces.Acciones;
 
 /**
  *
- * @author Ivan
+ * @author ivan
  */
-public class Perro extends Animal implements Acciones {
+public class Pez extends Animal implements Acciones {
 
-    public Perro(String nombre, int edad, double peso, String sexo) {
+    public Pez(String nombre, int edad, double peso, String sexo) {
         super(nombre, edad, peso, sexo);
     }
 
     @Override
     public void comer() {
-        System.out.println("El perro "+this.getNombre()+" esta comiendo");
+        System.out.println("El pez " + this.getNombre() + " esta comiendo");
     }
 
     @Override
     public void dormir() {
-        System.out.println("El perro "+this.getNombre()+" esta durmiendo");
+        System.out.println("El pez " + this.getNombre() + " estra en el fondo del mar");
     }
 
     @Override
     public void moverse() {
-        System.out.println("El perro "+this.getNombre()+" esta saltando");
+        System.out.println("El pez " + this.getNombre() + " esta moviendose");
     }
 
     public void jugar() {
-        System.out.println("El perro "+this.getNombre()+" esta jugando");
+        System.out.println("El pez " + this.getNombre() + " esta jugando");
     }
 
     @Override
     public void reproducirse() {
-        System.out.println("El perro "+this.getNombre()+" esta en etapa de reproduccion");
+        System.out.println("El pez " + this.getNombre() + " esta reproduciendose");
     }
-    
+
 }

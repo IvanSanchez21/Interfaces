@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package ec.edu.ups.clases;
+import ec.edu.ups.interfaces.Acciones;
 
 /**
  *
@@ -30,7 +31,6 @@ public class Ave extends Animal implements Acciones{
         System.out.println("El ave "+this.getNombre()+" esta volando");
     }
 
-    @Override
     public void jugar() {
         System.out.println("El ave "+this.getNombre()+" esta jugando");
     }
