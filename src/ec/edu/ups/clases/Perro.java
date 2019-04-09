@@ -11,3 +11,35 @@ import ec.edu.ups.interfaces.Acciones;
  *
  * @author Estudiante
  */
+public class Perro extends Animal implements Acciones {
+
+    public Perro(String nombre, int edad, double peso, String sexo) {
+        super(nombre, edad, peso, sexo);
+    }
+
+    @Override
+    public void comer() {
+        System.out.println("El perro "+this.getNombre()+" esta comiendo");
+    }
+
+    @Override
+    public void dormir() {
+        System.out.println("El perro "+this.getNombre()+" esta durmiendo");
+    }
+
+    @Override
+    public void moverse() {
+        System.out.println("El perro "+this.getNombre()+" esta saltando");
+    }
+
+    @Override
+    public void jugar() {
+        System.out.println("El perro "+this.getNombre()+" esta jugando");
+    }
+
+    @Override
+    public void reproducirse() {
+        System.out.println("El perro "+this.getNombre()+" esta en etapa de reproduccion");
+    }
+    
+}

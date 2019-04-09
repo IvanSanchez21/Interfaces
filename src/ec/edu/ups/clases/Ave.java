@@ -9,6 +9,35 @@ package ec.edu.ups.clases;
  *
  * @author Ivan
  */
-public class Ave {
+public class Ave extends Animal implements Acciones{
+
+    public Ave(String nombre, int edad, double peso, String sexo) {
+        super(nombre, edad, peso, sexo);
+    }
+
+    @Override
+    public void comer() {
+      System.out.println("El ave "+this.getNombre()+" esta comiendo");  
+    }
+
+    @Override
+    public void dormir() {
+        System.out.println("El ave "+this.getNombre()+" esta durmiendo");
+    }
+
+    @Override
+    public void moverse() {
+        System.out.println("El ave "+this.getNombre()+" esta volando");
+    }
+
+    @Override
+    public void jugar() {
+        System.out.println("El ave "+this.getNombre()+" esta jugando");
+    }
+
+    @Override
+    public void reproducirse() {
+        System.out.println("El ave "+this.getNombre()+" esta reproduciendose");
+    }
     
-}
+}   
