@@ -7,7 +7,7 @@ package ec.edu.ups.clases;
 
 /**
  *
- * @author Ivan
+ * @author ivan
  */
 public class Animal {
 

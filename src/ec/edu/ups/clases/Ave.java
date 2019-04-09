@@ -8,7 +8,7 @@ import ec.edu.ups.interfaces.Acciones;
 
 /**
  *
- * @author Ivan
+ * @author ivan
  */
 public class Ave extends Animal implements Acciones{
 
